@@ -1,17 +1,7 @@
-branch_whitelist        = []
-from_latest_tag         = false
-ignore_merge_commits    = false
-post_bump_hooks         = []
-post_package_bump_hooks = []
-pre_bump_hooks          = []
-pre_package_bump_hooks  = []
-
-[commit_types]
+ignore_merge_commits = true
 
 [changelog]
-authors = []
-path    = "CHANGELOG.md"
-
-[bump_profiles]
-
-[packages]
+authors    = [{ username = "arunim-io", signature = "Mugdha Arunim Ahmed" }]
+owner      = "arunim-io"
+path       = "CHANGELOG.md"
+repository = "apod-wallpaper"
