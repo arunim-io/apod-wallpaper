@@ -1,0 +1,17 @@
+branch_whitelist        = []
+from_latest_tag         = false
+ignore_merge_commits    = false
+post_bump_hooks         = []
+post_package_bump_hooks = []
+pre_bump_hooks          = []
+pre_package_bump_hooks  = []
+
+[commit_types]
+
+[changelog]
+authors = []
+path    = "CHANGELOG.md"
+
+[bump_profiles]
+
+[packages]
